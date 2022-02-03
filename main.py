@@ -73,37 +73,37 @@ def drawFourRays(t, length, radius):
 george.penup() 
 george.goto(-150, -120)
 george.pendown()
-drawRectangle(george, 100, 110, "blue")
+drawRectangle(george, 100, 110, "white")
 
 # Draw and fill the front door
 george.penup()
 george.goto(-120, -120)
 george.pendown()
-drawRectangle(george, 40, 60, "lightgreen")
+drawRectangle(george, 40, 60, "brown")
 
 # Front roof
 george.penup()
 george.goto(-150, -10)
 george.pendown()
-drawTriangle(george, 100, "magenta")
+drawTriangle(george, 100, "red")
 
 # Side of the house
 george.penup()
 george.goto(-50, -120)
 george.pendown()
-drawParallelogram(george, 60, 110, "yellow")
+drawParallelogram(george, 60, 110, "white")
 
 # Window
 george.penup()
 george.goto(-30, -60)
 george.pendown()
-drawParallelogram(george, 20, 30, "brown")
+drawParallelogram(george, 20, 30, "grey")
 
 # Side roof
 george.penup()
 george.goto(-50, -10)
 george.pendown()
-george.fillcolor("orange")
+george.fillcolor("red")
 george.begin_fill()
 george.left(30)
 george.forward(60)
